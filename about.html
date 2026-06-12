@@ -4,26 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Portfólio</title>
+    <title>Sobre - Pedro Ernesto</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="curriculum.html">Meu Currículo</a>
-        </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">Pedro Ernesto</h1>
+            <nav class="header__nav">
+                <a href="index.html#home" class="header__link">Home</a>
+                <a href="index.html#sobre" class="header__link">Sobre</a>
+                <a href="index.html#experiencia" class="header__link">Experiência</a>
+                <a href="index.html#competencias" class="header__link">Competências</a>
+                <a href="index.html#contato" class="header__link">Contato</a>
+            </nav>
+            <button class="header__cta">Hire Me</button>
+        </div>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
-            <p  class="apresentacao__conteudo__texto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
-            <P class="apresentacao__conteudo__texto">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores ipsum delis forum birol parela maxime infena. Excepteur sint occaecat cupidatat non.</P>
-        </section>    
-            <img class="apresentacao__imagem" src="./assets/FOTO PROFISSIONAL.jpg" alt="Pedro Ernesto" height="500" width="380">
-          
-    </main>
-    <footer class="rodape" >
-        <p>Desenvolvido por Pedro Ernesto.</p>
+
+    <!-- About Section -->
+    <section class="about" style="padding-top: 120px; padding-bottom: 80px;">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="section__title">Sobre <span class="highlight">Pedro Ernesto</span></h1>
+                
+                <p class="hero__about" style="margin-bottom: 1.5rem;">
+                    Sou um profissional apaixonado por tecnologia, dados e negócios financeiros. Minha trajetória 
+                    combina formação em Sistemas de Informação com experiência prática em administração e infraestrutura.
+                </p>
+
+                <p class="hero__about" style="margin-bottom: 1.5rem;">
+                    Como estudante na UEMG, desenvolvei uma visão estratégica focada em arquitetura de dados e inteligência 
+                    de negócios. Acredito que a tecnologia deve simplificar processos complexos e gerar valor real para as organizações.
+                </p>
+
+                <p class="hero__about" style="margin-bottom: 2rem;">
+                    Minha expertise abrange desde análise e modelagem de dados até infraestrutura de TI e desenvolvimento backend. 
+                    Tenho certificação CPA-20 em investimentos financeiros, o que me permite compreender profundamente o mercado 
+                    financeiro e criar soluções alinhadas com objetivos empresariais.
+                </p>
+
+                <h2 class="section__title" style="margin-top: 2rem;">Minha <span class="highlight">Filosofia</span></h2>
+                
+                <div class="profile__cards" style="margin-top: 2rem;">
+                    <div class="profile__card">
+                        <div class="profile__card-icon">🎯</div>
+                        <h3>Foco em Resultados</h3>
+                        <p>Cada projeto deve gerar valor mensurável e contribuir para objetivos estratégicos claros.</p>
+                    </div>
+                    <div class="profile__card">
+                        <div class="profile__card-icon">🔧</div>
+                        <h3>Excelência Técnica</h3>
+                        <p>Código limpo, arquitetura robusta e boas práticas são fundamentos non-negociáveis.</p>
+                    </div>
+                    <div class="profile__card">
+                        <div class="profile__card-icon">📈</div>
+                        <h3>Aprendizado Contínuo</h3>
+                        <p>A tecnologia evolui constantemente. Estou sempre atualizando conhecimentos e habilidades.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero__image">
+                <img src="./assets/FOTO PROFISSIONAL.jpg" alt="Pedro Ernesto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p>Pedro Ernesto</p>
+            <div class="footer__links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Email</a>
+            </div>
+            <p class="footer__copyright">© 2025 Pedro Ernesto. Finance & Tech Expert.</p>
+        </div>
     </footer>
-</body>     
+</body>
+</html>

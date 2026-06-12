@@ -4,26 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Portfólio</title>
+    <title>Currículo - Pedro Ernesto</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="curriculum.html">Meu Currículo</a>
-        </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">Pedro Ernesto</h1>
+            <nav class="header__nav">
+                <a href="index.html#home" class="header__link">Home</a>
+                <a href="index.html#sobre" class="header__link">Sobre</a>
+                <a href="index.html#experiencia" class="header__link">Experiência</a>
+                <a href="index.html#competencias" class="header__link">Competências</a>
+                <a href="index.html#contato" class="header__link">Contato</a>
+            </nav>
+            <button class="header__cta">Hire Me</button>
+        </div>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
-            <p  class="apresentacao__conteudo__texto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
-            <P class="apresentacao__conteudo__texto">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores ipsum delis forum birol parela maxime infena. Excepteur sint occaecat cupidatat non.</P>
-        </section>    
-            <img  src="./assets/FOTO PROFISSIONAL.jpg" alt="Pedro Ernesto" height="500" width="380">
-          
-    </main>
-    <footer class="rodape" >
-        <p>Desenvolvido por Pedro Ernesto.</p>
+
+    <!-- Curriculum Section -->
+    <section style="padding-top: 120px; padding-bottom: 80px;">
+        <div style="max-width: 1400px; margin: 0 auto; padding: 0 2rem;">
+            <h1 class="section__title">Meu <span class="highlight">Currículo</span></h1>
+
+            <!-- Professional Experience -->
+            <div class="timeline" style="margin-top: 3rem;">
+                <h2 class="section__title" style="font-size: 2rem; text-align: left;">Experiência <span class="highlight">Profissional</span></h2>
+                
+                <div class="timeline__items">
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__year">2025 - Atual</span>
+                            <h3>Assessor Administrativo</h3>
+                            <p class="timeline__company">Contratado</p>
+                            <p>Foco total em estruturação de dados e inteligência de gestão. Responsável por criar instrumentos de análise de dados financeiros.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__year">2025</span>
+                            <h3>Responsável pelo Setor de TI</h3>
+                            <p class="timeline__company">Cargo Administrativo</p>
+                            <p>Operação de sistemas críticos e suporte técnico especializado, garantindo a continuidade tecnológica do ecossistema administrativo.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__year">2024 - 2025</span>
+                            <h3>Estagiário de TI</h3>
+                            <p class="timeline__company">Contratado</p>
+                            <p>Liderança estratégica na migração de sistemas ERP. Gerenciamento completo de infraestrutura tecnológica e service desk para operações do setor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="skills" style="padding: 3rem 0; border: none; background: transparent;">
+                <h2 class="section__title" style="font-size: 2rem; text-align: left;">Competências <span class="highlight">Técnicas</span></h2>
+                
+                <div class="skills__grid" style="margin-top: 2rem;">
+                    <div class="skill__card">
+                        <div class="skill__icon">📊</div>
+                        <h3>Dados & Análise</h3>
+                        <ul>
+                            <li>SQL Avançado</li>
+                            <li>Power BI & Tableau</li>
+                            <li>Modelagem Estruturada</li>
+                            <li>ETL e Pipelines</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill__card">
+                        <div class="skill__icon">💻</div>
+                        <h3>Desenvolvimento</h3>
+                        <ul>
+                            <li>JavaScript Moderno</li>
+                            <li>C++ / OOP</li>
+                            <li>REST APIs</li>
+                            <li>Backend Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill__card">
+                        <div class="skill__icon">🌐</div>
+                        <h3>Infraestrutura</h3>
+                        <ul>
+                            <li>Windows Server</li>
+                            <li>Service Desk & Support</li>
+                            <li>Administração de TI</li>
+                            <li>Gestão de Redes</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill__card">
+                        <div class="skill__icon">💼</div>
+                        <h3>Negócios</h3>
+                        <ul>
+                            <li>Análise Estratégica</li>
+                            <li>Gestão Financeira</li>
+                            <li>Inteligência de Mercado</li>
+                            <li>ERP e BI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="education" style="padding: 3rem 0; border: none; background: transparent;">
+                <div class="education__container" style="grid-template-columns: 1fr;">
+                    <div>
+                        <h2 class="section__title" style="font-size: 2rem; text-align: left;">Formação <span class="highlight">Acadêmica</span></h2>
+                        <div class="education__card">
+                            <h3>Bacharelado em Sistemas de Informação</h3>
+                            <p>Universidade do Estado de Minas Gerais (UEMG)</p>
+                            <p class="education__note">🎓 Período: Em andamento. Foco em engenharia de software e inteligência computacional.</p>
+                        </div>
+
+                        <h2 class="section__title" style="font-size: 2rem; text-align: left; margin-top: 2rem;">Certificações</h2>
+                        <div class="education__card cert">
+                            <h3>📊 CPA-20 ANBIMA</h3>
+                            <p>Certificação do Profissional de Investimentos</p>
+                        </div>
+                        <div class="education__card cert">
+                            <h3>⭐ Advanced SQL & Data Modeling</h3>
+                            <p>Expert Technical Training</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Download Button -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <button class="hero__btn">→ Download Currículo em PDF</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p>Pedro Ernesto</p>
+            <div class="footer__links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Email</a>
+            </div>
+            <p class="footer__copyright">© 2025 Pedro Ernesto. Finance & Tech Expert.</p>
+        </div>
     </footer>
-</body>     
+</body>
+</html>

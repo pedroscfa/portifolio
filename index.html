@@ -4,32 +4,222 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Portfólio</title>
+    <title>Pedro Ernesto - Tech Expert</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="curriculum.html">Meu Currículo</a>
-        </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">Pedro Ernesto</h1>
+            <nav class="header__nav">
+                <a href="#home" class="header__link">Home</a>
+                <a href="#sobre" class="header__link">Sobre</a>
+                <a href="#experiencia" class="header__link">Experiência</a>
+                <a href="#competencias" class="header__link">Competências</a>
+                <a href="#contato" class="header__link">Contato</a>
+            </nav>
+            <button class="header__cta">Hire Me</button>
+        </div>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital  a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
-            <p  class="apresentacao__conteudo__texto">Olá! Sou <strong class="nome">Joana Santos</strong>, desenvolvedora Front-end <br> com especialidade em React, HTML e CSS.
-            Ajudo  pequenos negócios e designers a colocarem em <br> prática boas ideias. Vamos conversar?</p>
-            <div class="apresentacao__links">  
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                <a  class="apresentacao__links__navegacao" href=""> <img src="./assets/github.png" > GitHub</a>
-                <a  class="apresentacao__links__navegacao" href=""> <img src="./assets/instagram.png"> Instagram</a>
-                <a  class="apresentacao__links__navegacao" href=""> <img src="./assets/linkedin.png" > Linkedin</a>
-            </div> 
-        </section>    
-            <img class="apresentacao__imagem" src="./assets/FOTO PROFISSIONAL.jpg" alt="Pedro Ernesto" height="450" width="0">
-          
-    </main>
-    <footer class="rodape" >
-        <p>Desenvolvido por Pedro Ernesto.</p>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container">
+            <div class="hero__content">
+                <div class="hero__tags">
+                    <span class="tag">💼 ANALISTA DE DADOS</span>
+                    <span class="tag">🎯 CPA-20</span>
+                    <span class="tag">📊 INFRAESTRUTURA E DADOS</span>
+                </div>
+                <h1 class="hero__title">
+                    Pedro Ernesto<br>
+                    <span class="hero__subtitle">Silva da Cunha</span>
+                </h1>
+                <p class="hero__description">
+                    Tecnologia • Dados • Infraestrutura • Mercado Financeiro.<br>
+                    Transformo processos complexos em decisões inteligentes através da precisão técnica.
+                </p>
+                <p class="hero__about">
+                    Altamente focado em administração, sistemas e estratégia de dados, unindo rigor analítico das finanças e agilidade do desenvolvimento.
+                </p>
+                <button class="hero__btn">→ Baixar Currículo</button>
+            </div>
+            <div class="hero__image">
+                <img src="./assets/FOTO PROFISSIONAL.jpg" alt="Pedro Ernesto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Hybrid Profile Section -->
+    <section class="profile" id="sobre">
+        <div class="profile__container">
+            <h2 class="section__title">Um Perfil <span class="highlight">Híbrido</span></h2>
+            <p class="profile__description">
+                Como estudante de Sistemas de Informação na UEMG (período inicial), desenvolvi um olhar estratégico focado em arquitetura de dados. Tenho trajetória na implementação de fluxos de BI que unem BI que utilizam a tomada de decisão administrativa. Meu objetivo: construir soluções tecnológicas que simplam a otimização para o desenvolvimento.
+            </p>
+            
+            <div class="profile__cards">
+                <div class="profile__card">
+                    <div class="profile__card-icon">📊</div>
+                    <h3>CPA-20</h3>
+                    <p>Certificação Profissional</p>
+                </div>
+                <div class="profile__card">
+                    <div class="profile__card-icon">💼</div>
+                    <h3>SOL Expert</h3>
+                    <p>Manutenção & Dados</p>
+                </div>
+                <div class="profile__card">
+                    <div class="profile__card-icon">💻</div>
+                    <h3>Dev</h3>
+                    <p>APIs & Backend</p>
+                </div>
+                <div class="profile__card">
+                    <div class="profile__card-icon">⚙️</div>
+                    <h3>Infra</h3>
+                    <p>DevOps & Cloud</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Experience Section -->
+    <section class="timeline" id="experiencia">
+        <div class="timeline__container">
+            <h2 class="section__title">Trajetória <span class="highlight">Profissional</span></h2>
+            
+            <div class="timeline__items">
+                <div class="timeline__item">
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__year">2025 - Atual</span>
+                        <h3>Assessor Administrativo</h3>
+                        <p class="timeline__company">Contratado</p>
+                        <p>Foco total em estruturação de dados e inteligência de gestão. Responsável por criar instrumentos de análise de dados financeiros.</p>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__year">2025</span>
+                        <h3>Responsável pelo Setor de TI</h3>
+                        <p class="timeline__company">Cargo Administrativo</p>
+                        <p>Operação de sistemas críticos e suporte técnico especializado, garantindo a continuidade tecnológica do ecossistema administrativo.</p>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__year">2024 - 2025</span>
+                        <h3>Estagiário de TI</h3>
+                        <p class="timeline__company">Contratado</p>
+                        <p>Liderança estratégica na migração de sistemas ERP. Gerenciamento completo de infraestrutura tecnológica e service desk para operações do setor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="skills" id="competencias">
+        <div class="skills__container">
+            <h2 class="section__title">Competências <span class="highlight">Técnicas</span></h2>
+            
+            <div class="skills__grid">
+                <div class="skill__card">
+                    <div class="skill__icon">📊</div>
+                    <h3>Dados & Análise</h3>
+                    <ul>
+                        <li>SQL Avançado</li>
+                        <li>Power BI</li>
+                        <li>Modelagem Estruturada</li>
+                    </ul>
+                </div>
+
+                <div class="skill__card">
+                    <div class="skill__icon">💻</div>
+                    <h3>Desenvolvimento</h3>
+                    <ul>
+                        <li>JavaScript Moderno</li>
+                        <li>C++ / OOP</li>
+                        <li>Programação</li>
+                    </ul>
+                </div>
+
+                <div class="skill__card">
+                    <div class="skill__icon">🌐</div>
+                    <h3>Infraestrutura</h3>
+                    <ul>
+                        <li>Windows Server</li>
+                        <li>Service Desk & Support</li>
+                        <li>Administração</li>
+                    </ul>
+                </div>
+
+                <div class="skill__card">
+                    <div class="skill__icon">💼</div>
+                    <h3>Negócios</h3>
+                    <ul>
+                        <li>Análise Estratégica</li>
+                        <li>Gestão Financeira</li>
+                        <li>Inteligência de Mercado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section class="education">
+        <div class="education__container">
+            <div class="education__column">
+                <h2 class="section__title">Formação <span class="highlight">Acadêmica</span></h2>
+                <div class="education__card">
+                    <h3>Bacharelado em Sistemas de Informação</h3>
+                    <p>Universidade do Estado de Minas Gerais (UEMG)</p>
+                    <p class="education__note">🎓 Período: Em andamento. Foco em engenharia de software e inteligência computacional.</p>
+                </div>
+            </div>
+
+            <div class="education__column">
+                <h2 class="section__title">Certificações</h2>
+                <div class="education__card cert">
+                    <h3>📊 CPA-20 ANBIMA</h3>
+                    <p>Certificação do Profissional de Investimentos</p>
+                </div>
+                <div class="education__card cert">
+                    <h3>⭐ Advanced SQL & Data Modeling</h3>
+                    <p>Expert Technical Training</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contato">
+        <div class="cta__container">
+            <h2>Pronto para <span class="highlight">elevar seu projeto</span>?</h2>
+            <p>Vamos conversar sobre como dados, tecnologia e visão de mercado podem transformar seus resultados.</p>
+            <div class="cta__buttons">
+                <button class="cta__btn cta__btn--primary">Enviar Email</button>
+                <button class="cta__btn cta__btn--secondary">WhatsApp</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p>Pedro Ernesto</p>
+            <div class="footer__links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Email</a>
+            </div>
+            <p class="footer__copyright">© 2025 Pedro Ernesto. Finance & Tech Expert.</p>
+        </div>
     </footer>
-</body>     
+</body>
+</html>
